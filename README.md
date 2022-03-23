@@ -1,6 +1,11 @@
 # KernelFilter-PyTorch
 A customized operation of PyTorch for implementing Kernel Prediction denoising networks.
 
+See：
+
+* [Kernel-Predicting Convolutional Networks for Denoising Monte Carlo Renderings](http://disneyresearch.s3.amazonaws.com/wp-content/uploads/20170630135237/Kernel-Predicting-Convolutional-Networks-for-Denoising-Monte-Carlo-Renderings-Paper33.pdf)
+* [Neural Temporal Adaptive Sampling and Denoising](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13919)
+
 ## Kernel Filter
 > KernelFilterClass.forward(*input, kernels, dilation=1*) → Tensor
 
