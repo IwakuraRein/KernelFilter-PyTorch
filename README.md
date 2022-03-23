@@ -11,7 +11,7 @@ For an input size $(N, C, H, W)$, the size of $kernels$ must be $(N, K\_Size \ti
 Letting $I_p^c$ denote the value at position $p$, channel $c$ of the input image and $W_p^n$ denote the value at position $p$, channel $n$ of the kernels, the Kernel Filter can be defined as:
 
 $$
-\tilde{I_p^c} = \frac{\sum_{n=1}^{K\_Size^2} W_p^c \cdot I_p^c}{\sum_{n=1}^{K\_Size^2} W_p^c }
+\tilde{I_p^c} = \frac{\sum_{n=1}^{K\_Size^2} W_p^n \cdot I_p^c}{\sum_{n=1}^{K\_Size^2} W_p^n }
 $$
 
 ## Compile
