@@ -1,6 +1,8 @@
 # KernelFilter-PyTorch
 A customized operation of PyTorch for implementing Kernel Prediction denoising networks.
 
+![3x3_kernel_filter_demonstration](3x3_kernel_filter.svg)
+
 See：
 
 * [Kernel-Predicting Convolutional Networks for Denoising Monte Carlo Renderings](http://disneyresearch.s3.amazonaws.com/wp-content/uploads/20170630135237/Kernel-Predicting-Convolutional-Networks-for-Denoising-Monte-Carlo-Renderings-Paper33.pdf)
